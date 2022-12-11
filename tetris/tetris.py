@@ -25,7 +25,7 @@ class Block:
         return self.rotation
 
 
-@dataclass()
+@dataclass
 class Tetris:
     height: int = 0
     width: int = 0
