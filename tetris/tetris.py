@@ -5,7 +5,6 @@ from dataclasses import dataclass
 
 import game_globals as gl
 
-
 @dataclass
 class Block:
     x: int = 0
